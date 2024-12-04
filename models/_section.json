@@ -35,6 +35,10 @@
             {
               "name": "BlueBox",
               "value": "bluebox"
+            },
+            {
+              "name": "Cards",
+              "value": "cards"
             }
           ]
         }
