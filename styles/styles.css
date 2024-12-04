@@ -267,3 +267,19 @@ main .section.heading p strong {
   font-family: APTypeProDisplay;
   font-weight: 500;
 }
+
+main .section.bluebox div.columns > div {
+  background-color: #b8e8de;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 80px 0px;
+}
+
+main .section.bluebox div.columns > div > div > p:nth-child(1) {
+  font-size: 24px;
+  letter-spacing: .8px;
+  line-height: 30px;
+  font-family: APTypeProDisplay;
+  font-weight: 500;
+}
