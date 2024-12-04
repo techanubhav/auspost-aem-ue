@@ -1,6 +1,9 @@
 footer {
   background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  font-size: 14px;
+  margin: 0;
+  padding: 0 5px 0 10px;
+  width: auto;
 }
 
 footer .footer > div {
@@ -17,4 +20,44 @@ footer .footer p {
   footer .footer > div {
     padding: 40px 32px 24px;
   }
+}
+
+footer .footer a:any-link {
+  color: #4d4d54;
+  font-weight: 400;
+}
+
+footer .footer ul {
+  padding-left: 0px;
+}
+
+footer .footer li {
+  list-style: none;
+}
+
+footer .footer li:before {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg fill='%23dc1928' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.44 10.566l-.679-.714c-.011-.013-.028-.017-.044-.03L8.951.591a1.848 1.848 0 00-2.711 0l-.68.712a2.096 2.096 0 000 2.854L13.01 12l-7.45 7.84a2.098 2.098 0 000 2.857l.68.71c.747.79 1.961.79 2.71 0l8.767-9.227c.014-.014.033-.018.044-.033l.68-.712c.375-.396.56-.916.559-1.435a2.065 2.065 0 00-.56-1.435z'/%3E%3C/svg%3E");
+}
+
+footer .footer > div > div > div > p {
+  font-size: 18px;
+  letter-spacing: .8px;
+  line-height: 24px;
+  font-family: APTypeProDisplay;
+}
+
+footer .footer div.columns-wrapper {
+  margin: 50px 0px;
+}
+
+footer .footer div.columns-4-cols > div > div:nth-child(3) {
+  display: flex;
+  gap: 40px;
+}
+
+footer .footer div.columns-4-cols > div > div:nth-child(4) {
+  display: flex;
+  gap: 10px;
 }

@@ -1,19 +1,19 @@
+.cards {
+  margin-bottom: 50px;
+}
+
 .cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+  grid-gap: 30px;
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
+  /* border: 1px solid #dadada; */
   background-color: var(--background-color);
-}
-
-.cards .cards-card-body {
-  margin: 16px;
 }
 
 .cards .cards-card-image {
@@ -23,4 +23,39 @@
 .cards > ul > li img {
   width: 100%;
   object-fit: cover;
+}
+
+main .section.cards > div:nth-child(1) > p:nth-child(1) {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+main .section.cards > div > p:nth-child(1) {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+main .section.highlight > div:nth-child(1) > p:nth-child(1) {
+  font-size: 32px;
+  letter-spacing: 1px;
+  line-height: 38px;
+  font-family: APTypeProDisplay;
+  text-align: center;
+}
+
+main .section.highlight > div:nth-child(1) > p:nth-child(2) {
+  text-align: center;
+  margin: 30px;
+}
+
+main .section.highlight div.columns-img-col {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  border-radius: 6px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+
+main .section.highlight div:last-child > p {
+  text-align: center;
 }
