@@ -255,3 +255,12 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+main .section.heading p strong {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 1px;
+  line-height: 38px;
+  font-family: APTypeProDisplay;
+  font-weight: 500;
+}
