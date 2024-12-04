@@ -256,8 +256,11 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-main .section.heading p strong {
+main .section.heading p {
   text-align: center;
+}
+
+main .section.heading p strong {
   font-size: 32px;
   letter-spacing: 1px;
   line-height: 38px;

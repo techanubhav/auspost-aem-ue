@@ -31,6 +31,10 @@
             {
               "name": "Heading",
               "value": "heading"
+            },
+            {
+              "name": "BlueBox",
+              "value": "bluebox"
             }
           ]
         }
