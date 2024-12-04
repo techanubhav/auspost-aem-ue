@@ -14,7 +14,7 @@
 
 .hero > div:nth-child(2) {
   width: 33%;
-  margin-left: 250px;
+  margin-left: 10%;
 }
 
 .hero > div:nth-child(2) > div > p > strong {
